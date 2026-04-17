@@ -18,7 +18,6 @@ const AppDetails = () => {
         setFriend(single);
       });
   }, [id]);
-
   const saveToTimeline = (type, name) => {
     const oldData = JSON.parse(localStorage.getItem("timeline")) || [];
 
@@ -32,7 +31,6 @@ const AppDetails = () => {
     localStorage.setItem("timeline", JSON.stringify([newItem, ...oldData]));
     window.dispatchEvent(new Event("storage"));
   };
-
   const handleClick = (type) => {
     if (!friend) return;
 
@@ -160,8 +158,7 @@ const AppDetails = () => {
                 ${activeBtn === "text"
                     ? "scale-95"
                     : "bg-gray-100 hover:bg-gray-200 hover:scale-105"
-                  }`}
-              >
+                  }`}>
                 💬 Text
               </button>
 
