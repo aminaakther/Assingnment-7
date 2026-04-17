@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-xs text-gray-300 flex flex-col md:flex-row gap-[350px] items-center">
+        <div className="text-xs text-gray-300 flex flex-col md:flex-row  items-center">
 
           <p>© 2026 KeenKeeper. All rights reserved.</p>
 
