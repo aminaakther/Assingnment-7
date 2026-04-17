@@ -10,8 +10,8 @@ const Banner = () => {
           Friends to keep close in your life
         </h1>
 
-        <p className="text-sm md:text-base text-slate-500 max-w-lg mx-auto mb-8">
-          Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
+        <p className="text-sm md:text-base text-slate-500 whitespace-nowrap overflow-hidden text-ellipsis mx-auto mb-8">
+            Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
         </p>
 
         <div className="mb-6">

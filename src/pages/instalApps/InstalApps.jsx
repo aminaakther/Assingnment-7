@@ -29,7 +29,7 @@ const InstallApps = () => {
   const total = textCount + callCount + videoCount;
 
   return (
-    <div className="bg-white p-8 rounded-2xl max-w-4xl mx-auto mt-10 shadow-sm">
+    <div className="bg-white p-8 rounded-2xl max-w-4xl mx-auto shadow-sm md:py-16 lg:py-30 md:py-28 pt-20">
 
       <h2 className="text-3xl font-bold text-gray-800 mb-6">
         Install Apps

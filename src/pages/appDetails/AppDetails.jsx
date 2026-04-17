@@ -51,7 +51,7 @@ const AppDetails = () => {
   if (!friend) return <p className="p-6">Loading...</p>;
 
   return (
-    <div className="p-6 bg-gray-100 max-w-6xl mx-auto mt-10 rounded mb-5">
+    <div className="p-6 bg-gray-100 max-w-6xl mx-auto mt-10 rounded mb-5 md:py-16 lg:py-30 md:py-28 pt-20 sm:px-6">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
 
         <div className="space-y-4">
