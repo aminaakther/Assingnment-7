@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Rakib Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/13.jpg",
+    "email": "rakib.hossain@example.com",
+    "days_since_contact": 6,
+    "status": "On-Track",
+    "tags": ["college", "friend"],
+    "bio": "College friend. We used to attend programming contests together.",
+    "goal": 12,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 2,
+    "name": "Sumaiya Akter",
+    "picture": "https://randomuser.me/api/portraits/women/14.jpg",
+    "email": "sumaiya.akter@example.com",
+    "days_since_contact": 16,
+    "status": "Almost Due",
+    "tags": ["school", "best friend"],
+    "bio": "School friend. We still keep in touch regularly.",
+    "goal": 15,
+    "next_due_date": "2026-04-24"
+  },
+  {
+    "id": 3,
+    "name": "Hasan Mahmud",
+    "picture": "https://randomuser.me/api/portraits/men/26.jpg",
+    "email": "hasan.mahmud@example.com",
+    "days_since_contact": 33,
+    "status": "overdue",
+    "tags": ["gym", "fitness"],
+    "bio": "Gym partner who pushes me to stay consistent.",
+    "goal": 20,
+    "next_due_date": "2026-04-09"
+  },
+  {
+    "id": 4,
+    "name": "Tasnim Jannat",
+    "picture": "https://randomuser.me/api/portraits/women/28.jpg",
+    "email": "tasnim.jannat@example.com",
+    "days_since_contact": 3,
+    "status": "On-Track",
+    "tags": ["office", "colleague"],
+    "bio": "Office teammate working on UI/UX design tasks.",
+    "goal": 7,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 5,
+    "name": "Sabbir Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/35.jpg",
+    "email": "sabbir.ahmed@example.com",
+    "days_since_contact": 21,
+    "status": "Almost Due",
+    "tags": ["coding", "developer"],
+    "bio": "Coding partner. We build web projects together.",
+    "goal": 14,
+    "next_due_date": "2026-04-26"
+  },
+  {
+    "id": 6,
+    "name": "Kamal Uddin",
+    "picture": "https://randomuser.me/api/portraits/men/46.jpg",
+    "email": "kamal.uddin@example.com",
+    "days_since_contact": 41,
+    "status": "overdue",
+    "tags": ["childhood", "old friend"],
+    "bio": "Childhood friend who moved to another city.",
+    "goal": 30,
+    "next_due_date": "2026-04-04"
+  },
+  {
+    "id": 7,
+    "name": "Nadia Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/47.jpg",
+    "email": "nadia.rahman@example.com",
+    "days_since_contact": 11,
+    "status": "On-Track",
+    "tags": ["university", "study"],
+    "bio": "University study group partner.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 8,
+    "name": "Imran Khan",
+    "picture": "https://randomuser.me/api/portraits/men/56.jpg",
+    "email": "imran.khan@example.com",
+    "days_since_contact": 8,
+    "status": "On-Track",
+    "tags": ["gaming", "online"],
+    "bio": "Online gaming friend. We play together at night.",
+    "goal": 12,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 9,
+    "name": "Rumana Islam",
+    "picture": "https://randomuser.me/api/portraits/women/63.jpg",
+    "email": "rumana.islam@example.com",
+    "days_since_contact": 15,
+    "status": "On-Track",
+    "tags": ["neighbor", "friend"],
+    "bio": "Friendly neighbor who often joins evening walks.",
+    "goal": 10,
+    "next_due_date": "2026-04-23"
+  },
+  {
+    "id": 10,
+    "name": "Fahim Chowdhury",
+    "picture": "https://randomuser.me/api/portraits/men/65.jpg",
+    "email": "fahim.chowdhury@example.com",
+    "days_since_contact": 26,
+    "status": "Almost Due",
+    "tags": ["developer", "work"],
+    "bio": "Backend developer friend. We discuss APIs and coding.",
+    "goal": 18,
+    "next_due_date": "2026-04-29"
+  }
+]

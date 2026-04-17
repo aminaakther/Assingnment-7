@@ -1,13 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { createBrowserRouter, RouterProvider } from "react-router";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from './layout/RootLayout';
 import Apps from './pages/apps/Apps';
 import InstalApps from './pages/instalApps/InstalApps';
-import NotFooundPage from './pages/Notpa/NotFooundPage';
 import Homepage from './pages/homepage/Homepage';
 import AppDetails from './pages/appDetails/AppDetails';
+import NotFooundPage from './pages/Notpa/NotFooundPage';
 
 
 
@@ -16,7 +16,7 @@ const router = createBrowserRouter(
   [
     {
       path: "/",
-      element: <RootLayout />,
+      element: <RootLayout></RootLayout>,
       children: [
         {
           // path: "/",
@@ -36,7 +36,7 @@ const router = createBrowserRouter(
           element: <InstalApps></InstalApps>,
         }
       ],
-      errorElement: <NotFooundPage></NotFooundPage>
+      errorElement: <NotFooundPage></NotFooundPage>,
     },
 
   ]
